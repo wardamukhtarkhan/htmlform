@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>STUDENT REGISTRATION FORM</title>
+</head>
+<body>
+
+    <img src="ssuet.jpg" alt="" width="150" height="100" />
+
+    <th>STUDENT REGISTRATION FORM</th>
+   
+
+    
+    <form>
+        <p>Firstname :
+            <input type="text" placeholder="Enter Firstname" name="firstname" size="15" maxlength="30" autocomplete="off" />
+            <label>(max 30 characters from a-z and A-Z)</label>
+        </p>
+
+        <p>Lastname :
+            <input type="text" placeholder="Enter Lastname"name="lastname" size="15" maxlength="30" autocomplete="off" />
+            <label>(max 30 characters from a-z and A-Z)</label>
+        </p>
+
+        <label>Date of birth</label>
+        <input type="date" name="depart" />
+
+        <p>Email ID :
+        <input type="email" placeholder="Enter ID "name="email" />
+        </p>
+
+        <p>Mobile Number :
+        <input type="number" placeholder="Enter number" name="number" />
+        <label>(10 digit number)</label>
+        </p>
+
+        <p>Gender : <br />
+            <input type="radio" name="gender" value="male"  />Male
+            <input type="radio" name="gender" value="female" />Female
+        </p>
+
+        <p>Address :
+            <textarea id="address" name="address" rows="4" cols="40"></textarea>
+        </p>
+
+        <p>City :
+            <input type="text" placeholder="Enter city" name="city" />
+            <label>(max 30 characters from a-z and A-Z)</label>
+        </p>
+
+        <p>Pin Code :
+            <input type="text" placeholder="Enter pincode" name="pincode" />
+            <label>(6 digit number)</label>
+        </p>
+
+        <p>State :
+            <input type="text" placeholder="Enter state" name="state" />
+            <label>(max 30 characters from a-z and A-Z)</label>
+        </p>
+
+        <p>Country :
+            <input type="text" placeholder="Enter country" name="country" />
+        </p>
+
+        <p>Hobbies :
+            <input type="checkbox" name="subject" value="Drawing"  />Drawing
+            <input type="checkbox" name="subject" value="Singing"  />Singing
+            <input type="checkbox" name="subject" value="Dancing"  />Dancing
+            <input type="checkbox" name="subject" value="Sketching"  />Sketching
+            <input type="checkbox" name="subject" value="Others"  />Others
+            <input type="text" name="subject" value=""  />
+        </p>
+
+        <table>
+            <tr>
+                <th>Qualification</th>
+                <th>S No.</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of passing</th>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td>1</td>
+                <td>Class X</td>
+                <td><p><input type="text" name="board" /></p></td>
+                <td><p><input type="text" name="percentage" /></p></td>
+                <td><p><input type="text" name="year of passing" /></p></td>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><p><input type="text" name="board" /></p></td>
+                <td><p><input type="text" name="percentage" /></p></td>
+                <td><p><input type="text" name="year of passing" /></p></td>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><p><input type="text" name="board" /></p></td>
+                <td><p><input type="text" name="percentage" /></p></td>
+                <td><p><input type="text" name="year of passing" /></p></td>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td>4</td>
+                <td>Masters</td>
+                <td><p><input type="text" name="board" /></p></td>
+                <td><p><input type="text" name="percentage" /></p></td>
+                <td><p><input type="text" name="year of passing" /></p></td>
+            </tr>
+
+            <tr>
+                <td> </td>
+                <td> </td>
+                <td> </td>
+                <td>(10 char max) </td>
+                <td>(upto 2 decimal point) </td>
+                <td> </td>
+            </tr>
+
+        </table>
+
+        <p>Courses applied for :
+            <input type="checkbox" name="subject" value="BCA"  />BCA
+            <input type="checkbox" name="subject" value="B.Com"  />B.Com
+            <input type="checkbox" name="subject" value="BSc"  />BSc
+            <input type="checkbox" name="subject" value="B.A"  />B.A
+            
+        </p>
+
+        <p>
+        <input type="reset" name="reset" />
+        <input type="submit" name="submit" />
+        <br><br><br>
+        </p>
+
+
+    
+</body>
+</html>
